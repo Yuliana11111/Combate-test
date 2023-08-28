@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url(Barlow-Thin.ttf);
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url(/Users/yulianaluna/Downloads/Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+
+body{
+    background-color: white;
+    min-height: 100vh;
+    height: 100vh;
+    
+
+}
+
+#background{
+    width: 100%;
+    height: 100vh;  
+      
+}
+
+.logo{
+position: absolute;
+width: 222px;
+height: 78px;
+left: 83px;
+top: 66px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+.whatapp{
+    
+
+position: absolute;
+width: 45.27px;
+height: 45.27px;
+position: absolute;
+width: 45.27px;
+height: 45.27px;
+background: #FFFFFF;
+
+}
+
+ul li a{
+
+position: absolute;
+width: 355px;
+height: 61px;
+left: 1100px;
+top: 74px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+ul li a:hover{
+    text-decoration: underline solid white;
+}
+
+
+.button{
+
+position: absolute;
+width: 162px;
+height: 60px;
+left: 95px;
+top: 515px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300px;
+font-size: 25px;
+line-height: 29px;
+color: #ffffff;
+text-decoration: none;
+background-color:transparent;
+backdrop-filter: blur(2px);
+border-radius: 50px;
+padding: 15px 30px;
+border: 2px solid whitesmoke;
+
+}
+
+header .button:hover{
+    background-color: white;
+    color: #1257be;
+}
+
+
+main h1{
+
+position: absolute;
+width: 823px;
+height: 198px;
+left: 83px;
+top: 317px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 250;
+font-size: 64px;
+line-height: 77px;
+color: #FFFFFF;
+}
+
+
+
+
+section h2{
+
+position: absolute;
+width: 375px;
+height: 88px;
+left: 117px;
+top: 992px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+color: #000000;
+
+
+}
+
+section h3{
+
+position: absolute;
+width: 562px;
+height: 88px;
+left: 117px;
+top: 1080px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+color: #7D7D7D;
+
+
+}
+
+section h4{
+ 
+position: absolute;
+width: 375px;
+height: 10px;
+left: 117px;
+top: 992px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+color: #000000;
+}
+
+section ul{
+
+
+position: absolute;
+width: 477px;
+height: 166px;
+left: 140px;
+top: 1168px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+list-style-type: circle;
+line-height: 60px;
+
+
+}
+
+.onepic{
+
+position: absolute;
+width: 411px;
+height: 548px;
+left: 950px;
+top: 933px;
+background: url(DF3296BF-4653-4670-BC0E-E28268117D92.jpg);
+backdrop-filter: blur(2px);
+
+}
+
+.twopic{
+
+position: absolute;
+width: 360px;
+height: 480px;
+left: 780px;
+top: 1140px;
+background: url(3DB5B42B-929F-4356-92DC-EA06988BA3D2.jpg);
+z-index: 20;
+
+}
+
+
+.curve{
+    position: absolute;
+    top: 90vh;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background: url(file:///Users/yulianaluna/Downloads/Okthisisit.png);
+    background-size: 2000px 100px;
+    animation: ani_wave 5s linear infinite;
+
+}
+
+@keyframes ani_wave {
+    0% {
+        background-position-x: 2000px;
+    }
+}
+100%{
+        background-position-x: 0;
+}
+
+
+.container .swiper-slide {
+    width: 100%;
+    height: 380vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+
+}
+
+.swiper-slide img{
+    width:100%;
+
+
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:#FFFFFF;
+}
